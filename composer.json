@@ -1,9 +1,9 @@
 {
-  "name": "roots/bedrock",
+  "name": "8grams/bedrock",
   "type": "project",
   "license": "MIT",
-  "description": "WordPress boilerplate with Composer, easier configuration, and an improved folder structure",
-  "homepage": "https://roots.io/bedrock/",
+  "description": "WordPress boilerplate with SQLite integration out of the box. Forked from roots/bedrock.",
+  "homepage": "https://8grams.tech/bedrock",
   "authors": [
     {
       "name": "Scott Walkinshaw",
@@ -14,6 +14,11 @@
       "name": "Ben Word",
       "email": "ben@benword.com",
       "homepage": "https://github.com/retlehs"
+    },
+    {
+      "name": "Glend Maatita",
+      "email": "glend@8grams.tech",
+      "homepage": "https://github.com/glendmaatita"
     }
   ],
   "keywords": [
