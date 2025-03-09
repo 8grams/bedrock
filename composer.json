@@ -42,7 +42,8 @@
     "roots/wp-password-bcrypt": "1.2.0",
     "wpackagist-theme/twentytwentyfive": "^1.0",
     "wpackagist-plugin/sqlite-database-integration": "2.1.16",
-    "wpackagist-plugin/sqlite-object-cache": "1.5.1"
+    "wpackagist-plugin/sqlite-object-cache": "1.5.1",
+    "wpackagist-plugin/wp-multilang": "2.4.17"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",

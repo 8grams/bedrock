@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4568359574a5d8bf6c7799f6a0da15ca",
+    "content-hash": "9b59f10baa6026b4fbb58a38394685c8",
     "packages": [
         {
             "name": "composer/installers",
@@ -1141,6 +1141,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sqlite-object-cache/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-multilang",
+            "version": "2.4.17",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-multilang/",
+                "reference": "tags/2.4.17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-multilang.2.4.17.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-multilang/"
         },
         {
             "name": "wpackagist-theme/twentytwentyfive",
