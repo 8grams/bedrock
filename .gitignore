@@ -12,6 +12,7 @@ web/app/cache/*
 web/wp
 web/.htaccess
 web/app/db.php
+web/app/object-cache.php
 
 # Logs
 *.log

@@ -70,6 +70,9 @@ if (!env('WP_ENVIRONMENT_TYPE') && in_array(WP_ENV, ['production', 'staging', 'd
 Config::define('WP_HOME', env('WP_HOME'));
 Config::define('WP_SITEURL', env('WP_SITEURL'));
 
+// Cache
+Config::define('WP_SQLITE_OBJECT_CACHE_DB_FILE', env('WP_SQLITE_OBJECT_CACHE_DB_FILE'));
+
 /**
  * Custom Content Directory
  */
