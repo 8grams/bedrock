@@ -52,7 +52,8 @@
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
-    "laravel/pint": "^1.18"
+    "laravel/pint": "^1.18",
+    "wpackagist-plugin/fakerpress": "^0.6.6"
   },
   "config": {
     "optimize-autoloader": true,

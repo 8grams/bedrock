@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b59f10baa6026b4fbb58a38394685c8",
+    "content-hash": "87f5d2db46a871742fc4fb803fb7b42a",
     "packages": [
         {
             "name": "composer/installers",
@@ -2122,6 +2122,24 @@
                 }
             ],
             "time": "2025-03-06T18:06:13+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/fakerpress",
+            "version": "0.6.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/fakerpress/",
+                "reference": "tags/0.6.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/fakerpress.0.6.6.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/fakerpress/"
         }
     ],
     "aliases": [],
