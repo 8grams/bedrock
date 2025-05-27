@@ -1,0 +1,12 @@
+vendor/
+.github/
+data/
+Dockerfile
+docker-compose.yml
+.git/
+.gitignore
+.gitattributes
+.idea/
+.vscode/
+LICENSE
+README.md
