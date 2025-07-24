@@ -20,8 +20,11 @@ COPY --from=composer:2.8.5 /usr/bin/composer /usr/bin/composer
 # Copy application code
 COPY . .
 
+# Copy env
+RUN cp .env.example .env
+
 # Install PHP dependencies
-RUN COMPOSER_PROCESS_TIMEOUT=600 composer install --prefer-dist --no-dev --no-interaction --no-progress --no-suggest
+RUN COMPOSER_ALLOW_SUPERUSER=1 COMPOSER_PROCESS_TIMEOUT=600 composer install --prefer-dist --no-dev --no-interaction --no-progress
 
 # Enable Apache rewrite
 RUN a2enmod rewrite
